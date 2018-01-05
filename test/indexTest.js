@@ -42,4 +42,5 @@ describe('closures', function() {
       expect(new Driver('Sam').id).to.not.equal(new Driver('Bob').id)
     })
   })
+  
 })
